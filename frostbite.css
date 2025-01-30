@@ -55,7 +55,7 @@ hr{
 .bg1{
 	background: #d0daff;
 	top: 1em;
-	right: 1em;
+	right: -30em;
 	width: 30em;
 	animation: bg1 5s 0;
 }
@@ -64,10 +64,10 @@ hr{
 	transform:translateY(0) scale(1);
 	}
 	40%{
-	transform:translateY(10%) scale(.8);
+	transform:translateY(30%) scale(.8);
 	}
 	60%{
-	transform:translateY(10%) scale(.8);
+	transform:translateY(30%) scale(.8);
 	}
 	100%{
 	transform:translateY(0) scale(1);
@@ -77,7 +77,7 @@ hr{
 .bg2{
 	background: #f0daf0;
 	top: 3em;
-	right: 10%;
+	right: -40em;
 	width: 20em;
 	animation: bg2 8s 1;
 }
@@ -86,10 +86,32 @@ hr{
 	transform:translateY(0) scale(1);
 	}
 	40%{
-	transform:translateY(-20%) scale(.7);
+	transform:translateY(-50%) scale(.7);
 	}
 	60%{
-	transform:translateY(-20%) scale(.7);
+	transform:translateY(-50%) scale(.7);
+	}
+	100%{
+	transform:translateY(0) scale(1);
+	}
+}
+
+.bg3{
+	background: #dcdadc;
+	top: 3em;
+	right: -60em;
+	width: 50em;
+	animation: bg3 3s .5;
+}
+@keyframes bg3{
+	0%{
+	transform:translateY(0) scale(1);
+	}
+	40%{
+	transform:translateY(-50%) translateX(10%) scale(.7);
+	}
+	60%{
+	transform:translateY(-50%) translateX(0%) scale(.7);
 	}
 	100%{
 	transform:translateY(0) scale(1);
