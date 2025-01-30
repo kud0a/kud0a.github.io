@@ -44,29 +44,50 @@ hr{
 }
 
 
-.bg-1{
-  --color: #c0caff;
-  aspect-ratio: 1 / 1;
-  background: radial-gradient(
-    circle,
-    rgb(var(--color)),
-    rgb(var(--color) / 0%));
-  border-radius: 50%;
-  filter: blur(1em);
-  width: min(100%, 400px);
-
-  animation: bg 5s liner infinite;
+.bg{
+	position: fixed;
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+	filter: blur(3em);
 }
-
-@keyframes bg{
+.bg1{
+	background: #c0caff;
+	top: 1em;
+	right: 60%;
+	width: 30em;
+	animation: bg1 5s 0 infinite;
+}
+@keyframes bg1{
 	0%{
 	transform:translateY(0) scale(1);
 	}
 	40%{
-	transform:translateY(30%) scale(.9);
+	transform:translateY(30px) scale(.9);
 	}
 	60%{
-	transform:translateY(30%) scale(.9);
+	transform:translateY(30px) scale(.9);
+	}
+	100%{
+	transform:translateY(0) scale(1);
+	}
+}
+
+.bg2{
+	background: #f0caf0;
+	top: 3em;
+	right: 0%;
+	width: 20em;
+	animation: bg2 8s 1 infinite;
+}
+@keyframes bg2{
+	0%{
+	transform:translateY(0) scale(1);
+	}
+	40%{
+	transform:translateY(-10px) scale(.9);
+	}
+	60%{
+	transform:translateY(-10px) scale(.9);
 	}
 	100%{
 	transform:translateY(0) scale(1);
