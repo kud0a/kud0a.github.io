@@ -31,15 +31,11 @@ body{
 	box-shadow: 0 0 .1em rgba(0,0,0,.1);
 }
 
-}
-
-* hr{
+hr{
 	visibility: hidden;
 	position: relative;
 	background: transparent;
 }
-
-
 
 .bg {
     position: absolute;
