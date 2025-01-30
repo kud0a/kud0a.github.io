@@ -48,6 +48,8 @@ hr{
     opacity: .8;
 }
 
+p.bg{display: block;}
+
 .bg1 {
     --offset-x: 30;
     --offset-y: 40;
@@ -124,10 +126,7 @@ hr{
     }
 }
 
-font:nth-of-type(2) .bg1,.bg2 { display: none; }
-font:nth-of-type(4) .bg2,.bg3 { display: none; }
-font:nth-of-type(6) .bg3,.bg1 { display: none; }
-font:nth-of-type(8) .bg1,.bg2 { display: none; }
+p:nth-of-type(2n){ display: none; }
 
 #container{
 	overflow: hidden;
