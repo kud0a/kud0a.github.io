@@ -126,3 +126,7 @@ body{
             scale(var(--scale-factor));
     }
 }
+
+#container{
+	overflow: hidden;
+}
