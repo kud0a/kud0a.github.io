@@ -23,12 +23,12 @@ body{
 
 
 .main{
-	background: rgba(255, 255, 255, .6);
+	background: rgba(255, 255, 255, .4);
 
 	padding: 3em .5em;
 	margin: -8em auto -5em auto;
 
-	box-shadow: 0 0 .1em rgba(0,0,0,.1);
+	box-shadow: 0 1px .1em rgba(0,0,0,.2);
 }
 
 hr{
