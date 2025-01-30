@@ -35,6 +35,7 @@ hr{
 	visibility: hidden;
 	position: relative;
 	background: transparent;
+	height: 2em;
 }
 
 .bg {
