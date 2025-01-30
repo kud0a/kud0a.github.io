@@ -88,6 +88,19 @@ hr{
     right: -25em;
     width: 15em;
     animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
+&::before{
+	content: "";
+    --offset-x: 25;
+    --offset-y: 45;
+    --scale-factor: 0.7;
+    --animation-duration: 35s;
+    --phase-shift: -5s;
+    background: #faf0d0;
+    top: 3em;
+    left: 10em;
+    width: 15em;
+    animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
+}
 }
 
 
