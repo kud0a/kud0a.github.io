@@ -123,6 +123,26 @@ hr{
     }
 }
 
+.bg:nth-child(5n - 4) {
+    display: none;
+}
+
+.bg:nth-child(5n - 3) {
+    display: none;
+}
+
+.bg:nth-child(5n - 2) {
+    display: none;
+}
+
+.bg:nth-child(5n - 1) {
+    display: none;
+}
+
+.bg:nth-child(5n) {
+    display: none;
+}
+
 #container{
 	overflow: hidden;
 }
