@@ -42,3 +42,33 @@ hr{
 	position: relative;
 	background: transparent;
 }
+
+
+.bg-1{
+  --color: #c0caff;
+  aspect-ratio: 1 / 1;
+  background: radial-gradient(
+    circle,
+    rgb(var(--color)),
+    rgb(var(--color) / 0%));
+  border-radius: 50%;
+  filter: blur(1em);
+  width: min(100%, 400px);
+
+  animation: bg 5s liner infinite;
+}
+
+@keyframes bg{
+	0%{
+	transform:translateY(0) scale(1);
+	}
+	40%{
+	transform:translateY(30%) scale(.9);
+	}
+	60%{
+	transform:translateY(30%) scale(.9);
+	}
+	100%{
+	transform:translateY(0) scale(1);
+	}
+}
