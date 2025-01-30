@@ -49,13 +49,14 @@ hr{
 	aspect-ratio: 1 / 1;
 	border-radius: 50%;
 	filter: blur(3em);
+	z-index: -1;
 }
 .bg1{
-	background: #c0caff;
+	background: #d0daff;
 	top: 1em;
 	right: 60%;
 	width: 30em;
-	animation: bg1 5s 0 infinite;
+	animation: bg1 5s 0;
 }
 @keyframes bg1{
 	0%{
@@ -73,11 +74,11 @@ hr{
 }
 
 .bg2{
-	background: #f0caf0;
+	background: #f0daf0;
 	top: 3em;
 	right: 0%;
 	width: 20em;
-	animation: bg2 8s 1 infinite;
+	animation: bg2 8s 1;
 }
 @keyframes bg2{
 	0%{
