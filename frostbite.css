@@ -96,10 +96,10 @@ hr{
 }
 
 .bg3{
-	background: #dcdadc;
+	background: #faf0d0;
 	top: 3em;
 	right: -60em;
-	width: 50em;
+	width: 15em;
 	animation: bg3 3s .5;
 }
 @keyframes bg3{
