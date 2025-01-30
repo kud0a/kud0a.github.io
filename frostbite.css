@@ -40,7 +40,7 @@ hr{
 }
 
 
-/* 基本スタイル */
+
 .bg {
     position: absolute;
     aspect-ratio: 1 / 1;
@@ -48,9 +48,9 @@ hr{
     filter: blur(3em);
     z-index: -1;
     animation: floating 40s linear infinite;
+    opacity: .8;
 }
 
-/* 各要素の基本設定 */
 .bg1 {
     --offset-x: 30;
     --offset-y: 40;
@@ -90,7 +90,7 @@ hr{
     animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
 }
 
-/* 共通のアニメーション定義 */
+
 @keyframes floating {
     0%, 100% {
         transform: 
