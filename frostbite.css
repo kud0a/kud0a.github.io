@@ -23,17 +23,17 @@ body{
 
 
 .main{
-	background: rgba(255, 255, 255, .5);
+	background: rgba(255, 255, 255, .6);
 
-	padding: 3em .5em 0 .5em;
-	margin: -5em auto;
+	padding: 2em .5em;
+	margin: -8em auto -5em auto;
 
-	box-shadow: 0 1px 5px rgba(0,0,0,.2);
+	box-shadow: 0 0 .1em rgba(0,0,0,.1);
 }
 
 }
 
-hr{
+* hr{
 	visibility: hidden;
 	position: relative;
 	background: transparent;
