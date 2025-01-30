@@ -1,0 +1,44 @@
+@charset "utf-8";
+@font-face {
+	font-family: "fb-text";
+	src: url("https://dl.dropboxusercontent.com/scl/fi/e12atlsy7l9rd281vnazn/.otf?rlkey=vghpxryhdshtza13l60ejdtog&st=swastwkh") format("woff2");
+}
+
+*{
+	--textheight: calc(var(--fontsize) * 2 - 1px);
+	--fontsize: 12px;
+
+	color:#45455A;
+	font-family: "fb-text";
+	font-size: var(--fontsize);
+}
+
+font,a{position: relative;}
+
+body{
+	margin: -1em .5em;
+	padding: 0 .5em;
+}
+
+
+
+.main{
+	color: #7A756A;
+	background: #fafaf5;
+	background-image: linear-gradient(180deg, #ccc 1px, transparent 1px);
+	background-size: 100% var(--textheight);
+	line-height: var(--textheight);
+
+	padding: 3em .5em 0 .5em;
+	margin: -5em auto;
+
+	box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
+
+}
+
+hr{
+	visibility: hidden;
+	position: relative;
+	background: transparent;
+}
