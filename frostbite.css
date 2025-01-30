@@ -50,14 +50,13 @@ hr{
 	border-radius: 50%;
 	filter: blur(3em);
 	z-index: -1;
-	animation-iteration-count: infinite;
 }
 .bg1{
 	background: #d0daff;
 	top: 1em;
 	right: -30em;
 	width: 30em;
-	animation: bg1 5s 0;
+	animation: bg1 5s 0s infinite;
 }
 @keyframes bg1{
 	0%{
@@ -79,7 +78,7 @@ hr{
 	top: 3em;
 	right: -40em;
 	width: 20em;
-	animation: bg2 8s 1;
+	animation: bg2 8s 1s infinite;
 }
 @keyframes bg2{
 	0%{
