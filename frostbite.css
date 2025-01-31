@@ -140,4 +140,5 @@ font:nth-of-type(15) p.bg1 {display: none;}
     height: 6em;
     margin: 0 auto;
     white-space: pre-wrap;
+    background: rgba(0,0,0,.3);
 }
