@@ -61,7 +61,7 @@ p.bg{display: block;}
     --offset-x: 30;
     --offset-y: 40;
     --scale-factor: 0.9;
-    --animation-duration: 40s;
+    --animation-duration: 30s;
     --phase-shift: 0s;
     background: #d5daf0;
     top: 1em;
@@ -74,7 +74,7 @@ p.bg{display: block;}
     --offset-x: 20;
     --offset-y: 50;
     --scale-factor: 0.8;
-    --animation-duration: 35s;
+    --animation-duration: 25s;
     --phase-shift: -10s;
     background: #f5e0f5;
     top: 3em;
@@ -87,7 +87,7 @@ p.bg{display: block;}
     --offset-x: 25;
     --offset-y: 45;
     --scale-factor: 0.7;
-    --animation-duration: 25s;
+    --animation-duration: 20s;
     --phase-shift: -5s;
     background: #f5f0e5;
     top: 3em;
