@@ -133,3 +133,11 @@ font:nth-of-type(15) p.bg1 {display: none;}
     width: 100%;
     max-width: 100%;
 }
+
+* textarea{
+    resize: vertical;
+    width: 100%;
+    field-sizing: content;
+    margin: 0 auto;
+    white-space: pre-wrap;
+}
