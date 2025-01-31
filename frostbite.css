@@ -127,4 +127,7 @@ font:nth-of-type(8) p.bg2 {display: none;}
 font:nth-of-type(10) p.bg1 {display: none;}
 
 #container{overflow: hidden;}
-.contents{margin: 0 0;}
+.contents{
+    margin: 0 0;
+    width: 100%;
+}
