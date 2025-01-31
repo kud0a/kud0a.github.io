@@ -65,7 +65,7 @@ p.bg{display: block;}
     --phase-shift: 0s;
     background: #d5daf0;
     top: 1em;
-    right: -30em;
+    left: 10em;
     width: 28em;
     animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
 }
@@ -91,7 +91,7 @@ p.bg{display: block;}
     --phase-shift: -5s;
     background: #f5f0e5;
     top: 3em;
-    left: 5em;
+    left: 1em;
     width: 15em;
     animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
 }
