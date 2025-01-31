@@ -111,7 +111,7 @@ p.bg{display: block;}
     50% {
         transform: 
             translate(calc(var(--offset-x) * -0.5%), calc(var(--offset-y) * -1.5%))
-            scale(calc(var(--scale-factor) + 0.2));
+            scale(calc(var(--scale-factor) + 0.5em));
     }
     75% {
         transform: 
