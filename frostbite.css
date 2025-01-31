@@ -21,6 +21,8 @@ body{
 	padding: 0 .5em;
     background: #f5f5fa;
     scrollbar-width: none;
+    -ms-overflow-style: none;
+&::-webkit-scrollbar{display:none;}
 }
 
 
