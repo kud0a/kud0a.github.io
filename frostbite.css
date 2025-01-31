@@ -33,9 +33,10 @@ body{
 
 .title{
     font-size: 1.5em;
-    filter: blur(1px);
-    opacity: .5;
+    filter: blur(.15em);
+    opacity: .8;
     text-align: center;
+    color: #a0b0c0;
 }
 
 hr{
