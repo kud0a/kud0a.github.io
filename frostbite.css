@@ -139,8 +139,6 @@ font:nth-of-type(15) p.bg1 {display: none;}
     width: 100%;
     height: 10em;
     margin: 0 auto;
-    white-space: pre-wrap;
-    background: rgba(255, 255, 255, .5);
+    background: transparent;
     border: none;
-    box-shadow: 0 1px .3em rgba(0,0,0,.3);
 }
