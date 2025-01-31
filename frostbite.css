@@ -71,7 +71,7 @@ p.bg{display: block;}
     --phase-shift: -10s;
     background: #f0daf0;
     top: 3em;
-    right: -40em;
+    left: 5em;
     width: 20em;
     animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
 }
@@ -84,7 +84,7 @@ p.bg{display: block;}
     --phase-shift: -5s;
     background: #faf0d0;
     top: 3em;
-    right: -25em;
+    left: 10em;
     width: 15em;
     animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
 &::before{
@@ -96,7 +96,7 @@ p.bg{display: block;}
     --phase-shift: -5s;
     background: #faf0d0;
     top: 3em;
-    left: 10em;
+    left: 3em;
     width: 15em;
     animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
 }
@@ -126,19 +126,19 @@ p.bg{display: block;}
     }
 }
 
-font:nth-of-type(2) p.bg1 {
+font:nth-of-type(2) p.bg1,p.bg2 {
     display: none;
 }
-font:nth-of-type(4) p.bg2 {
+font:nth-of-type(4) p.bg1,p.bg2,p.bg3 {
     display: none;
 }
-font:nth-of-type(6) p.bg3 {
+font:nth-of-type(6) p.bg3,p.bg1 {
     display: none;
 }
-font:nth-of-type(8) p.bg1 {
+font:nth-of-type(8) p.bg2,p.bg3 {
     display: none;
 }
-font:nth-of-type(10) p.bg2 {
+font:nth-of-type(10) p.bg1,p.bg2 {
     display: none;
 }
 
