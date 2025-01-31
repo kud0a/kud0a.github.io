@@ -8,7 +8,8 @@
 	--textheight: calc(var(--fontsize) * 2 - 1px);
 	--fontsize: 12px;
 
-	color:#45455A;
+	color:rgba(0,0,0,.5);
+    text-shadow: 0 0 .1em rgba(0,0,0,.1);
 	font-family: "fb-text";
 	font-size: var(--fontsize);
 }
@@ -25,11 +26,9 @@ body{
 
 .main{
 	background: rgba(255, 255, 255, .4);
-
 	padding: 3em .5em;
 	margin: -8em auto -5em auto;
-
-	box-shadow: 0 1px .1em rgba(0,0,0,.2);
+	box-shadow: 0 1px .2em rgba(0,0,0,.4);
 }
 
 hr{
@@ -88,19 +87,6 @@ p.bg{display: block;}
     left: 5em;
     width: 15em;
     animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
-&::before{
-	content: "";
-    --offset-x: 25;
-    --offset-y: 45;
-    --scale-factor: 0.7;
-    --animation-duration: 25s;
-    --phase-shift: -5s;
-    background: #faf0d0;
-    top: 3em;
-    left: -1em;
-    width: 15em;
-    animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
-}
 }
 
 
@@ -127,22 +113,10 @@ p.bg{display: block;}
     }
 }
 
-font:nth-of-type(2) p.bg1 {
-    display: none;
-}
-font:nth-of-type(4) p.bg2 {
-    display: none;
-}
-font:nth-of-type(6) p.bg3 {
-    display: none;
-}
-font:nth-of-type(8) p.bg1 {
-    display: none;
-}
-font:nth-of-type(10) p.bg2 {
-    display: none;
-}
+font:nth-of-type(2) p.bg1 {display: none;}
+font:nth-of-type(4) p.bg2 {display: none;}
+font:nth-of-type(6) p.bg3 {display: none;}
+font:nth-of-type(8) p.bg1 {display: none;}
+font:nth-of-type(10) p.bg2 {display: none;}
 
-#container{
-	overflow: hidden;
-}
+#container{overflow: hidden;}
