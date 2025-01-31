@@ -32,9 +32,9 @@ body{
 }
 
 .title{
-    font-size: 2em;
+    font-size: 1.5em;
     filter: blur(1px);
-    opacity: .6;
+    opacity: .8;
     text-align: center;
 }
 
