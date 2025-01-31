@@ -42,8 +42,8 @@ hr{
 	visibility: hidden;
 	position: relative;
 	background: transparent;
-	height: 2em;
 }
+#container hr{  height: 2em;}
 
 .bg {
     position: absolute;
