@@ -136,8 +136,8 @@ font:nth-of-type(15) p.bg1 {display: none;}
 
 * textarea{
     resize: vertical;
-    width: 100%;
-    field-sizing: content;
+    width: 90%;
+    height: 6em;
     margin: 0 auto;
     white-space: pre-wrap;
 }
