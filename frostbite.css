@@ -105,17 +105,17 @@ p.bg{display: block;}
     }
     25% {
         transform: 
-            translate(calc(var(--offset-x) * 1%), calc(var(--offset-y) * -1%))
+            translate(calc(var(--offset-x) * 3%), calc(var(--offset-y) * -2%))
             scale(var(--scale-factor));
     }
     50% {
         transform: 
-            translate(calc(var(--offset-x) * -0.5%), calc(var(--offset-y) * -1.5%))
-            scale(calc(var(--scale-factor) - 0.1));
+            translate(calc(var(--offset-x) * -2%), calc(var(--offset-y) * -4%))
+            scale(calc(var(--scale-factor) - 1));
     }
     75% {
         transform: 
-            translate(calc(var(--offset-x) * -1%), calc(var(--offset-y) * -0.5%))
+            translate(calc(var(--offset-x) * -3%), calc(var(--offset-y) * -2%))
             scale(var(--scale-factor));
     }
 }
