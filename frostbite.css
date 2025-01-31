@@ -32,7 +32,6 @@ body{
 }
 
 .title{
-    font-size: 1.5em;
     filter: blur(.15em);
     opacity: .8;
     text-align: center;
