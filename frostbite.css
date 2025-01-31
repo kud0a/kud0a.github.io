@@ -31,6 +31,13 @@ body{
 	box-shadow: 0 1px .2em rgba(0,0,0,.4);
 }
 
+.title{
+    font-size: 2em;
+    filter: blur(.1em);
+    opacity: .5;
+    text-align: center;
+}
+
 hr{
 	visibility: hidden;
 	position: relative;
@@ -113,10 +120,10 @@ p.bg{display: block;}
     }
 }
 
-font:nth-of-type(2) p.bg1 {display: none;}
-font:nth-of-type(4) p.bg2 {display: none;}
-font:nth-of-type(6) p.bg3 {display: none;}
-font:nth-of-type(8) p.bg1 {display: none;}
-font:nth-of-type(10) p.bg2 {display: none;}
+font:nth-of-type(2) p.bg3 {display: none;}
+font:nth-of-type(4) p.bg3 {display: none;}
+font:nth-of-type(6) p.bg1 {display: none;}
+font:nth-of-type(8) p.bg2 {display: none;}
+font:nth-of-type(10) p.bg1 {display: none;}
 
 #container{overflow: hidden;}
