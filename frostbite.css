@@ -120,14 +120,15 @@ p.bg{display: block;}
     }
 }
 
-font:nth-of-type(2) p.bg3 {display: none;}
-font:nth-of-type(4) p.bg3 {display: none;}
-font:nth-of-type(6) p.bg1 {display: none;}
-font:nth-of-type(8) p.bg2 {display: none;}
-font:nth-of-type(10) p.bg1 {display: none;}
+font:nth-of-type(3) p.bg3 {display: none;}
+font:nth-of-type(6) p.bg3 {display: none;}
+font:nth-of-type(9) p.bg1 {display: none;}
+font:nth-of-type(12) p.bg2 {display: none;}
+font:nth-of-type(15) p.bg1 {display: none;}
 
 #container{overflow: hidden;}
 .contents{
     margin: 0 0;
     width: 100%;
+    max-width: 100%;
 }
