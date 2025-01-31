@@ -136,7 +136,7 @@ font:nth-of-type(15) p.bg1 {display: none;}
 * textarea{
     resize: vertical;
     width: 50%;
-    height: 10em;
+    height: 12em;
     margin: 0 auto;
     background: transparent;
     border: none;
