@@ -36,7 +36,7 @@ body{
 }
 
 .title{
-    filter: blur(.15em);
+    filter: blur(.2em);
     opacity: .8;
     text-align: center;
     color: #a0b0c0;
