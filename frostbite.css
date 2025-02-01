@@ -55,7 +55,6 @@ hr{
     border-radius: 50%;
     filter: blur(4em);
     z-index: -1;
-    animation: floating 40s linear infinite;
     opacity: .5;
 }
 
