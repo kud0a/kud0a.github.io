@@ -31,8 +31,11 @@ body{
 
 .main{
 	background: rgba(255, 255, 255, .3);
-	padding: 3em .5em;
-	margin: -8em auto -5em auto;
+	padding: 5em .5em;
+	margin: -9em auto -6em auto;
+    line-height: 2em;
+    border-top: solid 1px #FFF;
+    border-bottom: solid 1px #FFF;
 }
 
 .title{
@@ -47,7 +50,7 @@ hr{
 	position: relative;
 	background: transparent;
 }
-#container hr{  height: 2em;}
+#container hr{  height: 5em;}
 
 .bg {
     position: absolute;
