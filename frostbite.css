@@ -6,7 +6,7 @@
 
 *{
 	--textheight: calc(var(--fontsize) * 2 - 1px);
-	--fontsize: 11px;
+	--fontsize: 12px;
 
 	color:rgba(0,0,0,.5);
     text-shadow: 0 0 .1em rgba(0,0,0,.1);
