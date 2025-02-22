@@ -151,6 +151,7 @@ font:nth-of-type(15) p.bg1 {display: none;}
 }
 
 rt{
-    font-size: 0.3em;
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
 }
 
