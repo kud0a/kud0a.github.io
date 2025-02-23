@@ -51,7 +51,7 @@ hr{
 	background: transparent;
 }
 #container hr{height: 5em;}
-hr:nth-child(n+3){display: none;}
+hr:nth-child(-n+3){display: none;}
 
 .bg {
     position: absolute;
