@@ -18,7 +18,6 @@
 font,a{position: relative;}
 
 body{
-	margin: -1em .5em;
 	padding: 0 .5em;
     background: #f5f5fa;
 
@@ -30,14 +29,14 @@ body{
 
 
 .main{
-	padding: 5em .5em;
-	margin: -9em auto -6em auto;
+	padding: .5em;
+	margin: .5em auto;
     line-height: 2em;
 }
 
 .title{
-    filter: blur(.1em);
     font-size: 2em;
+    padding: 1em;
     opacity: .8;
     color: #fff;
     background: #000;
