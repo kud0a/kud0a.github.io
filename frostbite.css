@@ -45,6 +45,7 @@ body{
 }
 
 .time{
+    font-size: 1.2em;
     float: right;
     margin: auto 2em;
     opacity: .5;
