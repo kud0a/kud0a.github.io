@@ -44,6 +44,17 @@ body{
     filter: blur(1px);
 }
 
+.time{
+    float: right;
+    padding: .1em .5em;
+    margin: auto .1em;
+    opacity: .8;
+    color: #f5f5fa;
+    background: #111;
+    filter: blur(1px);
+}
+
+
 hr{
 	visibility: hidden;
 	position: relative;
