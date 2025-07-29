@@ -36,9 +36,9 @@ body{
 
 .title{
     font-size: 1.5em;
-    padding: 1em;
+    padding: .1em;
     opacity: .8;
-    color: #fff;
+    color: #f5f5fa;
     background: #000;
 }
 
