@@ -47,8 +47,7 @@ hr{
 	position: relative;
 	background: transparent;
 }
-#container hr{height: 5em;}
-#container hr:nth-of-type(-n+1){height: 0;}
+
 
 #container{overflow: hidden;}
 .contents{
