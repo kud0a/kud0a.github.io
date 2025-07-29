@@ -1,0 +1,157 @@
+@charset "utf-8";
+@font-face {
+	font-family: "fb-text";
+	src: url("https://kud0a.github.io/maboroshi.otf") format("opentype");
+}
+
+*{
+	--textheight: calc(var(--fontsize) * 2 - 1px);
+	--fontsize: 12px;
+
+	color:rgba(0,0,0,.5);
+    text-shadow: 0 0 .1em rgba(0,0,0,.1);
+	font-family: "fb-text";
+	font-size: var(--fontsize);
+    font-display: swap;
+}
+
+font,a{position: relative;}
+
+body{
+	margin: -1em .5em;
+	padding: 0 .5em;
+    background: #f5f5fa;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+&::-webkit-scrollbar{display:none;}
+}
+
+
+
+.main{
+	background: rgba(255, 255, 255, .3);
+	padding: 5em .5em;
+	margin: -9em auto -6em auto;
+    line-height: 2em;
+    border-top: solid 1px #FFF;
+    border-bottom: solid 1px #FFF;
+}
+
+.title{
+    filter: blur(.2em);
+    opacity: .8;
+    text-align: center;
+    color: #a0b0c0;
+}
+
+hr{
+	visibility: hidden;
+	position: relative;
+	background: transparent;
+}
+#container hr{height: 5em;}
+#container hr:nth-of-type(-n+1){height: 0;}
+
+.bg {
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    filter: blur(4em);
+    z-index: -1;
+    opacity: .5;
+}
+
+p.bg{display: block;}
+
+.bg1 {
+    --offset-x: 30;
+    --offset-y: 40;
+    --scale-factor: 0.9;
+    --animation-duration: 30s;
+    --phase-shift: 0s;
+    background: #c0d0f0;
+    top: 1em;
+    left: 0em;
+    width: 32em;
+    animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
+}
+
+.bg2 {
+    --offset-x: 20;
+    --offset-y: 50;
+    --scale-factor: 0.8;
+    --animation-duration: 25s;
+    --phase-shift: -10s;
+    background: #f5daf5;
+    top: 3em;
+    left: 1em;
+    width: 24em;
+    animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
+}
+
+.bg3 {
+    --offset-x: 25;
+    --offset-y: 45;
+    --scale-factor: 0.7;
+    --animation-duration: 20s;
+    --phase-shift: -5s;
+    background: #faf5ea;
+    top: 3em;
+    left: -1em;
+    width: 15em;
+    animation: floating var(--animation-duration) var(--phase-shift) linear infinite;
+}
+
+
+@keyframes floating {
+    0%, 100% {
+        transform: 
+            translate(0, 0)
+            scale(1);
+    }
+    25% {
+        transform: 
+            translate(calc(var(--offset-x) * 1%), calc(var(--offset-y) * -2%))
+            scale(var(--scale-factor));
+    }
+    50% {
+        transform: 
+            translate(calc(var(--offset-x) * -0.5%), calc(var(--offset-y) * -1.5%))
+            scale(calc(var(--scale-factor) + 0.5em));
+    }
+    75% {
+        transform: 
+            translate(calc(var(--offset-x) * -2%), calc(var(--offset-y) * -2%))
+            scale(var(--scale-factor));
+    }
+}
+
+font:nth-of-type(3) p.bg3 {display: none;}
+
+font:nth-of-type(9) p.bg1 {display: none;}
+font:nth-of-type(12) p.bg2 {display: none;}
+font:nth-of-type(15) p.bg1 {display: none;}
+
+#container{overflow: hidden;}
+.contents{
+    margin: 0 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+* textarea{
+    resize: vertical;
+    width: 50%;
+    height: 12em;
+    margin: 0 auto;
+    background: transparent;
+    border: none;
+    display: flex;
+}
+
+rt{
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+}
+
