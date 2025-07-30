@@ -3,6 +3,11 @@
 	font-family: "fb-text";
 	src: url("https://kud0a.github.io/ZenKurenaido-Regular.ttf") format("truetype");
 }
+@font-face {
+    font-family: "fb-title";
+    src: url("https://kud0a.github.io/SoukouMincho.ttf") format("truetype");
+}
+
 
 *{
 	--textheight: calc(var(--fontsize) * 2 - 1px);
@@ -35,6 +40,7 @@ body{
 }
 
 .title{
+    font-family: "fb-title";
     font-size: 1.2em;
     padding: .1em .5em;
     margin: auto .1em;
@@ -58,6 +64,8 @@ hr{
 	position: relative;
 	background: transparent;
     margin: 1em;
+    background: #111;
+    filter: blur(1px);
 }
 
 
