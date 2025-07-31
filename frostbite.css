@@ -73,12 +73,14 @@ hr{
     opacity: .8;
     filter: blur(1px);
 }
-#container hr:nth-last-of-type(-n+3){
+#container hr:nth-last-of-type(-n+2){
     visibility: hidden;
     position: relative;
     background: transparent;
+    margin: 0;
+    padding: 0;
 }
-#container :nth-of-type(3n) hr{transform: rotate(1deg);}
+#container :nth-of-type(2n) hr{transform: rotate(1deg);}
 
 
 #container{overflow: hidden;}
