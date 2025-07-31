@@ -64,7 +64,7 @@ hr{
     background: transparent;
 }
 #container hr:nth-of-type(-n+3){height: 0;}
-#container hr{
+#container hr:nth-of-type(n+3){
 	visibility: visible;
 	position: relative;
     margin: 3em auto;
