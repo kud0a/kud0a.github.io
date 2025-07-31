@@ -58,15 +58,23 @@ body{
     filter: blur(1px);
 }
 
-
 hr{
-	visibility: hidden;
+    visibility: hidden;
+    position: relative;
+    background: transparent;
+}
+#container hr:nth-of-type(-n+1){height: 0;}
+#container hr{
+	visibility: visible;
 	position: relative;
-	background: transparent;
-    margin: 1em;
+    margin: 3em auto;
+    padding: .5em;
     background: #111;
+    opacity: .8;
     filter: blur(1px);
 }
+hr:nth-child(odd){transform: rotate(1deg);}
+hr:nth-child(even){transform: rotate(-1deg);}
 
 
 #container{overflow: hidden;}
